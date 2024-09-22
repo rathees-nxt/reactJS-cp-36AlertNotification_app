@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.alert-content-details {
+  display: flex;
+}
+.alert-notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.alert-heading {
+  font-family: roboto;
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon {
+  height: 70px;
+  min-height: 30px;
+}
+.alert-container {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+.heading {
+  font-family: roboto;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.para {
+  color: #64748b;
+  font-family: roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.error {
+  color: #ff0b37;
+}
+.success {
+  color: #2dca73;
+}
+.info {
+  color: #0f81e0;
+}
+.warning {
+  color: #ffb800;
+}
+@media screen and (min-width: 768px) {
+  .alert-notification {
+    width: 85%;
+    max-width: 1110px;
+  }
+  .alert-heading {
+    font-size: 36px;
+    margin-bottom: 24px;
+    margin-top: 30px;
+  }
+  .para {
+    font-size: 18px;
+  }
+  .alert-container {
+    margin-top: 10px;
+    width: 300px;
+  }
+  .icon {
+    margin-right: 20px;
+  }
+}

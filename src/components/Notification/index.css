@@ -1,0 +1,15 @@
+/* Write your CSS here */
+.notification-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #e5e5e5;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.alert-content {
+}
+.close-icon {
+}
